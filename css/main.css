@@ -1,0 +1,79 @@
+/* general roules */
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* headre's roules */
+
+header{
+  background-color: pink;
+  height: 10vh;
+  margin: 0 15% 15px;
+}
+
+/* main's roules */
+
+section{
+  margin: 15px 15% 0;
+}
+
+section:first-child{
+  background-color: yellow;
+  height: 35vh;
+}
+
+/* section:last-child{
+  background-color: blue;
+  height: 45vh;
+} */
+
+.intestazione{
+  margin-bottom: 0;
+  height: 70px;
+  background-color: lightblue;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix{
+  background-color: blue;
+  padding: 0;
+  margin-top: 0;
+}
+
+.sinistra{
+  float: left;
+  width: 20%;
+  height: 37vh;
+  background: lightblue;
+  margin-top: 1%;
+}
+
+.centro{
+  float: left;
+  width: 54%;
+  height: 37vh;
+  background: lightblue;
+  margin: 1% 3% 0;
+}
+
+.destra{
+  float: left;
+  width: 20%;
+  height: 37vh;
+  background: lightblue;
+  margin-top: 1%;
+}
+
+/* footer's roules */
+
+footer{
+  background-color: purple;
+  height: 5vh;
+  margin: 3px 15%;
+}
