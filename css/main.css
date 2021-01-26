@@ -72,24 +72,26 @@ section:first-child{
   color: white;
 }
 
-.dark > h4{
+.dark > h3{
   z-index: 150;
   color: lightgray;
 }
 
-/* section:last-child{
+section:last-child{
   background-color: blue;
-  height: 45vh;
-} */
+  position: absolute;
+}
 
 
 /* intestazione wordpress */
 .intestazione{
   margin-bottom: 0;
   height: 70px;
-  background-color: lightblue;
 }
 
+.intestazione > h4{
+  color: gray;
+}
 
 /* fine intestazione word press */
 
@@ -108,25 +110,37 @@ section:first-child{
 .sinistra{
   float: left;
   width: 20%;
-  height: 27vh;
   background: lightblue;
   margin-top: 1%;
+  position: relative;
+}
+
+.sinistra > img{
+  width: 100%;
 }
 
 .centro{
   float: left;
   width: 54%;
-  height: 27vh;
   background: lightblue;
   margin: 1% 3% 0;
+  position: relative;
+}
+
+.centro > img{
+  width: 100%;
 }
 
 .destra{
   float: left;
   width: 20%;
-  height: 27vh;
   background: lightblue;
   margin-top: 1%;
+  position: relative;
+}
+
+.destra > img{
+  width: 100%;
 }
 
 /* footer's roules */
@@ -135,4 +149,5 @@ footer{
   background-color: purple;
   height: 3vh;
   margin: 3px 15%;
+  position: absolute;
 }
