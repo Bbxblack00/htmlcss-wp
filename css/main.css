@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
+  border-radius: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -19,8 +20,6 @@ header > img{
   width:auto;
   margin-right: 1px solid lightgray;
 }
-
-
 
 ul{
   list-style-type: none;
@@ -51,37 +50,48 @@ section:first-child{
   background-position: center;
   background-size: cover;
   height: 55vh;
-  border-radius: 33px;
-  padding: 15%;
   position: relative;
 }
 
 .dark{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 100;
+  border-radius: 15px;
+  padding: 30% 1% 5%;
+  font-style: italic;
 }
 
 
-section > h1{
-
+.dark > h1{
+  z-index: 150;
+  color: white;
 }
 
+.dark > h4{
+  z-index: 150;
+  color: lightgray;
+}
 
 /* section:last-child{
   background-color: blue;
   height: 45vh;
 } */
 
+
+/* intestazione wordpress */
 .intestazione{
   margin-bottom: 0;
   height: 70px;
   background-color: lightblue;
 }
+
+
+/* fine intestazione word press */
 
 .clearfix::after{
   content: "";
